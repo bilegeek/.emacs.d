@@ -13,6 +13,11 @@
   (other-window 1 nil)
   (switch-to-next-buffer))
 
+;;From https://old.reddit.com/r/lisp/comments/eng1yr/is_there_any_way_to_force_the_slime_repl_to_load/fe1dcob/
+(defun my/with-buffers-in-same-window (f &rest args)
+  (let ((display-buffer-function #'display-buffer-same-window))
+    (apply f args)))
+
 ;;~~~~~
 
 ;;From https://emacs.stackexchange.com/questions/501/how-do-i-group-hooks
