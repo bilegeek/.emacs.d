@@ -1198,6 +1198,8 @@ With prefix argument use ARG number of windows, defaults to two."
       (slime-repl-return)
 		(slime-repl-newline-and-indent)))
 
+(advice-add 'slime :around #'my/with-buffers-in-same-window)
+
 ;;~~~~~
 
 (require 'geiser)
