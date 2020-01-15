@@ -1464,7 +1464,7 @@ With prefix argument use ARG number of windows, defaults to two."
 ;;~~~~~
 
 ;;From commands.el
-;;(global-set-key (kbd "C-q") 'er/expand-region)
+(global-set-key (kbd "C-q") 'er/expand-region)
 (global-set-key (kbd "C-S-c C-S-c") 'mc/edit-lines)
 (global-set-key (kbd "C-M-<next>") 'mc/mark-next-like-this)
 (global-set-key (kbd "C-M-<prior>") 'mc/mark-previous-like-this)
