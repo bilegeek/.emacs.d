@@ -1391,10 +1391,10 @@ With prefix argument use ARG number of windows, defaults to two."
 
 ;;~~~~~
 
-(require 'elfeed)
-(require 'elfeed-goodies)
-(elfeed-goodies/setup)
-(setq elfeed-db-directory "~/.emacs.d/elfeed/")
+;; (require 'elfeed)
+;; (require 'elfeed-goodies)
+;; (elfeed-goodies/setup)
+;; (setq elfeed-db-directory "~/.emacs.d/elfeed/")
 
 ;;~~~~~
 
