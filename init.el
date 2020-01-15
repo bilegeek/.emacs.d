@@ -1,3 +1,11 @@
+;; ###########
+;; # CREDITS #
+;; ###########
+
+;; Unless stated otherwise, most of the configs for SLIME, Paredit, and multiple-cursors are modified from
+;; Shinmera's Portacle (https://github.com/portacle/emacsd). Elements of the Company and Magit configs are
+;; also from there.
+
 ;; ####################
 ;; # GENERAL SETTINGS #
 ;; ####################
