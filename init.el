@@ -201,6 +201,10 @@
 ;;~~~~~
 
 (require 'multiple-cursors)
+(require 'expand-region)
+
+;; Workaround for https://github.com/magnars/expand-region.el/issues/220
+(setq shift-select-mode nil)
 
 ;;From https://old.reddit.com/r/emacs/comments/eeyhdz/weekly_tipstricketc_thread/fch1bkv/
 (defun snippins/helm-M-x ()
